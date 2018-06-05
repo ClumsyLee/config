@@ -1,6 +1,6 @@
 # Bash Git Prompt.
 GIT_PROMPT_ONLY_IN_REPO=0
-GIT_PROMPT_START="_LAST_COMMAND_INDICATOR_ \[\033[0;33m\]\h:\w\[\033[0;0m\]"
+GIT_PROMPT_START="_LAST_COMMAND_INDICATOR_ \[\033[01;32m\]\h\[\033[0;0m\]:\[\033[0;33m\]\w\[\033[0;0m\]"
 source ~/.bash-git-prompt/gitprompt.sh
 
 # Aliases.
