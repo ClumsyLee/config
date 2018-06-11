@@ -1,8 +1,6 @@
 [
     { "keys": ["alt+b"], "command": "move", "args": {"by": "words", "forward": false} },
     { "keys": ["alt+f"], "command": "move", "args": {"by": "word_ends", "forward": true} },
-    { "keys": ["ctrl+a"], "command": "move_to", "args": {"to": "bol", "extend": false} },
-    { "keys": ["ctrl+e"], "command": "move_to", "args": {"to": "eol", "extend": false} },
     { "keys": ["alt+up"], "command": "swap_line_up" },
     { "keys": ["alt+down"], "command": "swap_line_down" },
     { "keys": ["super+shift+k"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
